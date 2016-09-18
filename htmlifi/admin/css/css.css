@@ -1,0 +1,25 @@
+.htmlifi_post_editor { margin: 25px; }
+.htmlifi_page_content, .htmlifi_table_editor { width: 300px; height: 175px; margin: 15px; padding: 20px; vertical-align: top; }
+
+.page_selector { width: 37px !important; height: 37px !important; }
+.page_selector:checked:before { font-size: 42px !important; }
+.htmlifi_page_content { display: inline-block; }
+input[name="title[]"] { width: 250px; height: 37px; }
+textarea[name="content[]"] { display: block; width: 295px; height: 125px; margin-top: 10px; }
+
+.htmlifi_table_editor { display: inline-block; }
+.htmlifi_table_editor > label { display: inline-block; text-align: left; vertical-align: baseline; width: 87%; height: 25px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 25px; }
+.htmlifi_table_editor table { display: block; width: inherit; margin: 10px 0; overflow: auto }
+.htmlifi_table_editor td { white-space: nowrap }
+.table_selector { width: 30px !important; height: 30px !important; vertical-align: baseline !important }
+.table_selector:checked:before { font-size: 36px !important; }
+textarea[name="text[]"], textarea[name="custom_table[]"] { width: 145px; height: 91px; }
+
+.htmlifi_post_editor:hover { background: rgba(255,255,255,0.8); border-radius: 1px}
+.htmlifi_page_content:hover { background: rgba(44,151,223,0.1); border-radius: 3px}
+.htmlifi_table_editor:hover { background: rgba(32,233,102,0.1); border-radius: 3px}
+
+fieldset { display: table; border-spacing: 20px; border: 1px solid rgba(0,0,0,0.2); width: 99%; margin: 30px 0; }
+fieldset div { display: table-row }
+fieldset span, fieldset input {display: table-cell;}
+
